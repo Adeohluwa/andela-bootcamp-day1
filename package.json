@@ -1,0 +1,27 @@
+{
+  "name": "andela-bootcamp-day1",
+  "version": "1.0.0",
+  "description": "Wrote An AritGeo function",
+  "main": "aritgeo.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adeohluwa/andela-bootcamp-day1.git"
+  },
+  "keywords": [
+    "test",
+    "aritgeo"
+  ],
+  "author": "Adeoluwa Adejumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adeohluwa/andela-bootcamp-day1/issues"
+  },
+  "homepage": "https://github.com/adeohluwa/andela-bootcamp-day1#readme",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
