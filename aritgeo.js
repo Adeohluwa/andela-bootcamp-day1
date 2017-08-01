@@ -3,9 +3,9 @@
 
 
 //function returns true if array is an A.P
-function arithmetic(array){
+const arithmetic = (array)=>{
 	commonDiff = array[1] - array[0];
-	for (var i = 0; i < array.length -1; i++) {
+	for (let i = 0; i < array.length -1; i++) {
 		if (commonDiff !== (array[i+1] - array[i])) {
 			return false;
 		}
@@ -15,9 +15,9 @@ function arithmetic(array){
 }
 
 //function returns true if array is a G.P
-function geometric(array){
+const geometric = (array)=>{
 	commonRatio = array[1] / array[0];
-	for (var i = 0; i < array.length - 1; i++){
+	for (let i = 0; i < array.length - 1; i++){
 		if (commonRatio !== (array[i+1] / array[i])) {
 			return false; 
 		}
@@ -26,7 +26,7 @@ function geometric(array){
 }
 
 //function checks if its an array and is empty
-function emptyArray(array){
+const emptyArray = (array)=>{
 	if ((array.constructor === Array ) && (array.length < 1 )){
 		return true;
 	}
@@ -35,7 +35,7 @@ function emptyArray(array){
 
 
 
-module.exports = {aritGeo: function(array){
+module.exports = {aritGeo: (array)=>{
 					if (emptyArray(array)) {
 							return 0;		
 						}
@@ -44,9 +44,6 @@ module.exports = {aritGeo: function(array){
 						}
 					if (geometric(array)) {
 							return "geometric";
-						}
-					if (emptyArray(array)) {
-							return 0;		
 						}
 					//not of any of the others
 					return -1;
