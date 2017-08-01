@@ -45,6 +45,6 @@ module.exports = {aritGeo: (array)=>{
 					if (geometric(array)) {
 							return "geometric";
 						}
-					//not of any of the others
+					//return -1 for neither
 					return -1;
 					}}
