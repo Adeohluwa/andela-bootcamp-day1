@@ -1,4 +1,6 @@
 # AritGeo Test Suite
+    A test suite written with mocha and chai for assertions using the chai expect style
+    assertions.
 
 
 ## 10 Test cases and all Passing
@@ -15,4 +17,7 @@
 
 
 
-Run ```npm install``` and then ```npm test```
+run ```npm install```
+    this will install all dependencies
+and then ```npm test```
+    this will start the test runner
