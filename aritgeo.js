@@ -10,7 +10,7 @@ const arithmetic = (array)=>{
             return false;
         }
     }
-	return true;	
+    return true;	
 
 }
 
@@ -22,7 +22,7 @@ const geometric = (array)=>{
             return false; 
         }
     }
-	return true;
+    return true;
 }
 
 //function checks if its an array and is empty
