@@ -3,7 +3,7 @@
 
 
 //function returns true if array is an A.P
-const arithmetic = (array)=>{
+const arithmetic = (array) => {
     commonDiff = array[1] - array[0];
     for (let i = 0; i < array.length -1; i++) {
         if (commonDiff !== (array[i+1] - array[i])) {
@@ -15,7 +15,7 @@ const arithmetic = (array)=>{
 }
 
 //function returns true if array is a G.P
-const geometric = (array)=>{
+const geometric = (array) => {
     commonRatio = array[1] / array[0];
     for (let i = 0; i < array.length - 1; i++){
         if (commonRatio !== (array[i+1] / array[i])) {
@@ -26,7 +26,7 @@ const geometric = (array)=>{
 }
 
 //function checks if its an array and is empty
-const emptyArray = (array)=>{
+const emptyArray = (array) => {
     if ((array.constructor === Array ) && (array.length < 1 )){
         return true;
     }
@@ -36,7 +36,7 @@ const emptyArray = (array)=>{
 
 
 module.exports = {
-    aritGeo: (array)=>{
+    aritGeo: (array) => {
         if (emptyArray(array)) {
             return 0;		
         }

@@ -1,8 +1,11 @@
 const aritGeo = require('../aritgeo').aritGeo;
 const expect = require('chai').expect;
 
+//fat arrows are strongly discouraged by the mocha
+//see documentation
 
 
+//aritGeo Test Suite
 describe('aritGeo suite', function(){
   it('should return arithmetic for arrray of A.P',function(){
        expect(aritGeo([2,4,6,8])).to.equal("arithmetic");
@@ -39,7 +42,7 @@ describe('aritGeo suite', function(){
   it('should return -1 for an array of numbers in arithmetic progression except 1',function(){
        expect(aritGeo([2,4,6,8,9])).to.equal(-1);
     })
-
+    //asert that a list of zeros is an arithmetic progression
   it('should return arithmetic for a list of zero arrays',function(){
-       expect(aritGeo([0,0,0,0])).to.equal("arithmetic");
-    }) })
+       expect(aritGeo([0,0,0,0])).to.equal("arithmetic"); }) 
+})
