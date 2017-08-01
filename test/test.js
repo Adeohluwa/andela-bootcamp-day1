@@ -1,4 +1,4 @@
-const aritGeo = require('./aritgeo').aritGeo;
+const aritGeo = require('../aritgeo').aritGeo;
 const expect = require('chai').expect;
 
 
