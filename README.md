@@ -1,3 +1,9 @@
+![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)
+
+
+
+
+
 # AritGeo Test Suite
     A test suite written with mocha and chai for assertions using the chai expect style
     assertions.
