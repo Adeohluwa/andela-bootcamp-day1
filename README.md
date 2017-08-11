@@ -8,8 +8,8 @@
 
 
 ## 10 Test cases and all Passing
-	* [ x ]   Detects an arithmetic progression
-	- [ x ] Detects a geometric progression
+	* [x]   Detects an arithmetic progression
+	- [x] Detects a geometric progression
 	- [ ] Returns zero for an empty array
 	- [x] Returns -1 for a random string
 	- [x] Returns -1 for an array of string and numbers
