@@ -2,7 +2,7 @@
 // G.P short for geometric progression
 
 
-//function returns true if array is an A.P
+// function returns true if array is an A.P
 const arithmetic = (array) => {
     commonDiff = array[1] - array[0];
     for (let i = 0; i < array.length -1; i++) {
@@ -14,7 +14,7 @@ const arithmetic = (array) => {
 
 }
 
-//function returns true if array is a G.P
+// function returns true if array is a G.P
 const geometric = (array) => {
     commonRatio = array[1] / array[0];
     for (let i = 0; i < array.length - 1; i++){
@@ -25,7 +25,7 @@ const geometric = (array) => {
     return true;
 }
 
-//function checks if its an array and is empty
+// function checks if its an array and is empty
 const emptyArray = (array) => {
     if ((array.constructor === Array ) && (array.length < 1 )){
         return true;
@@ -35,8 +35,8 @@ const emptyArray = (array) => {
 
 
 
-module.exports = {
-    aritGeo: (array) => {
+
+const aritGeo = (array) => {
         if (emptyArray(array)) {
             return 0;		
         }
@@ -49,4 +49,5 @@ module.exports = {
         //return -1 for neither
         return -1; 
     }
-}
+
+export default aritGeo;
