@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/adeohluwa/andela-bootcamp-day1#readme",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.1.0",
     "mocha": "^3.4.2"
   }
