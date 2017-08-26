@@ -1,6 +1,6 @@
 
 # AritGeo Test Suite
-![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)
+![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)[![Build Status](https://travis-ci.org/Adeohluwa/andela-bootcamp-day1.svg?branch=master)](https://travis-ci.org/Adeohluwa/andela-bootcamp-day1)
 
 
     A test suite written with mocha and chai for assertions using the chai expect style
