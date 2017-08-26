@@ -8,16 +8,16 @@
 
 
 ## 10 Test cases and all Passing
-	* [x]   Detects an arithmetic progression
-	- [x] Detects a geometric progression
-	- [ ] Returns zero for an empty array
-	- [x] Returns -1 for a random string
-	- [x] Returns -1 for an array of string and numbers
-	- [x] Returns -1 for an array of both positive and negative numbers
-	- [x] Returns -1 for an array of strings
-	- [x] Returns -1 for an incomplete arithmetic progression
-	- [x] Returns -1 for an incomplete geometric progression
-	- [x] Returns arithmetic progression for an array of zeros
+- [x]   Detects an arithmetic progression
+- [x] Detects a geometric progression
+- [x] Returns zero for an empty array
+- [x] Returns -1 for a  random string
+- [x] Returns -1 for an array of string and numbers
+- [x] Returns -1 for an  array of both positive and negative numbers
+- [x] Returns -1 for an array of strings
+- [x] Returns -1 for an incomplete arithmetic progression
+- [x] Returns -1 for an incomplete geometric progression
+- [x] Returns arithmetic progression for an array of zeros
 
 
 
