@@ -1,6 +1,6 @@
 
 # AritGeo Test Suite
-![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)[![Build Status](https://travis-ci.org/Adeohluwa/andela-bootcamp-day1.svg?branch=aritGeo)](https://travis-ci.org/Adeohluwa/andela-bootcamp-day1)[![Code Climate](https://codeclimate.com/github/Adeohluwa/andela-bootcamp-day1/badges/gpa.svg)](https://codeclimate.com/github/Adeohluwa/andela-bootcamp-day1)
+![MIT L](https://img.shields.io/github/license/mashape/apistatus.svg)[![Build Status](https://travis-ci.org/Adeohluwa/andela-bootcamp-day1.svg?branch=aritGeo)](https://travis-ci.org/Adeohluwa/andela-bootcamp-day1)[![Code Climate](https://codeclimate.com/github/Adeohluwa/andela-bootcamp-day1/badges/gpa.svg)](https://codeclimate.com/github/Adeohluwa/andela-bootcamp-day1) [![Coverage Status](https://coveralls.io/repos/github/Adeohluwa/andela-bootcamp-day1/badge.svg?branch=aritGeo)](https://coveralls.io/github/Adeohluwa/andela-bootcamp-day1?branch=aritGeo)
 
 
     A test suite written with mocha and chai for assertions using the chai expect style
